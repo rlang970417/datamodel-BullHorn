@@ -1,0 +1,8 @@
+-- ZDBT01W_destroy.sql
+DROP USER bhdba;
+DROP USER bhrdr;
+
+DROP TABLESPACE BH INCLUDING CONTENTS AND DATAFILES;
+
+commit;
+quit;
